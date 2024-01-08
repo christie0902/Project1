@@ -1,9 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lato:wght@300;400&display=swap');
+
 * {
 font-family: 'Karla', sans-serif;
 font-family: 'Lato', sans-serif;
+margin: 0;
 }
 
-padding: 0;
-margin: 0;
-margin: 0 auto;
+body {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid #2baadf;
+    padding-left: 50px;
+}
+
+h1 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 0px;
+    width: 90%;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2baadf;
+    padding-right: 10px;
+    border-right: 2px solid #cccccc;
+    line-height: 30px;
+}
+
+#last-nav {
+    border-right: #ffffff;
+}
+
+.blog-post {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blog-post .date {
+    color: #cccccc;
+    font-size: 130%;
+    margin-bottom: 5px;
+}
+
+.blog-post h2 {
+    font-size: 200%;
+    font-weight: lighter;
+}
+
+.blog-post .content-text {
+    color: #444444;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color:#2baadf;
+    font-weight: bold;
+}
+
+.bottom-text {
+    width: 450px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 20px;
+    font-size: 120%;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.see-more-button { 
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+footer {
+    padding-bottom: 60px;
+}
+
+footer nav {
+    margin-bottom: 5px;
+}
+
+footer p {
+    font-size: 120%;
+    font-weight: 400;
+}
